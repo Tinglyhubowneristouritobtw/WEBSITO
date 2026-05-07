@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Backup Dashboard</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #2f3136; color: white; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: #36393f; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        h1 { color: #5865f2; border-bottom: 1px solid #4f545c; padding-bottom: 10px; }
+        .info { background: #292b2f; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+        .category { margin-top: 20px; font-weight: bold; color: #b9bbbe; text-transform: uppercase; font-size: 0.9em; }
+        .channel { background: #40444b; margin: 5px 0; padding: 10px; border-radius: 5px; display: flex; align-items: center; }
+        .channel-icon { margin-right: 10px; color: #8e9297; }
+        .id-badge { background: #5865f2; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="server-name">Loading Server...</h1>
+        <div class="info">
+            <strong>Server ID:</strong> <span id="server-id">---</span>
+        </div>
+        <div id="layout">
+            </div>
+    </div>
+
+    <script>
+        // Fetches your data.json from the same folder
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('server-name').innerText = data.name;
+                document.getElementById('server-id').innerText = data.id;
+                
+                const layout = document.getElementById('layout');
+                data.categories.forEach(cat => {
+                    const catDiv = document.createElement('div');
+                    catDiv.className = 'category';
+                    catDiv.innerText = cat.name;
+                    layout.appendChild(catDiv);
+                    
+                    cat.channels.forEach(ch => {
+                        const chDiv = document.createElement('div');
+                        chDiv.className = 'channel';
+                        const icon = ch.type === 'text' ? '#' : '🔊';
+                        chDiv.innerHTML = `<span class="channel-icon">${icon}</span> ${ch.name}`;
+                        layout.appendChild(chDiv);
+                    });
+                });
+            })
+            .catch(err => {
+                document.getElementById('server-name').innerText = "Error Loading Data";
+                console.error(err);
+            });
+    </script>
+</body>
+</html>
