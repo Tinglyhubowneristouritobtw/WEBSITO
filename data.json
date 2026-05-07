@@ -1,0 +1,333 @@
+{
+    "name": "Vexis Finder",
+    "id": "1486785022160539865",
+    "roles": [
+        {
+            "name": "@",
+            "color": 526344,
+            "hoist": false,
+            "permissions": 1721826619162615
+        },
+        {
+            "name": ".",
+            "color": 196618,
+            "hoist": false,
+            "permissions": 8864262743130111
+        },
+        {
+            "name": "Owner",
+            "color": 655360,
+            "hoist": true,
+            "permissions": 1721826618638335
+        },
+        {
+            "name": "Bot",
+            "color": 2123412,
+            "hoist": true,
+            "permissions": 8
+        },
+        {
+            "name": "Co Owner",
+            "color": 11127295,
+            "hoist": true,
+            "permissions": 1721826618638327
+        },
+        {
+            "name": "Administrator",
+            "color": 11825407,
+            "hoist": true,
+            "permissions": 1721807559716807
+        },
+        {
+            "name": "Moderator",
+            "color": 5132217,
+            "hoist": true,
+            "permissions": 4531603019975873
+        },
+        {
+            "name": "Helper",
+            "color": 11752348,
+            "hoist": false,
+            "permissions": 1099511627776
+        },
+        {
+            "name": "Developer",
+            "color": 10382335,
+            "hoist": true,
+            "permissions": 0
+        },
+        {
+            "name": "Investor",
+            "color": 6240676,
+            "hoist": true,
+            "permissions": 0
+        },
+        {
+            "name": "Pro Slot",
+            "color": 6431194,
+            "hoist": true,
+            "permissions": 67108864
+        },
+        {
+            "name": "Bid",
+            "color": 13410905,
+            "hoist": false,
+            "permissions": 0
+        },
+        {
+            "name": "Farmer Slot",
+            "color": 13086894,
+            "hoist": true,
+            "permissions": 0
+        },
+        {
+            "name": "Blacklisted",
+            "color": 1638914,
+            "hoist": false,
+            "permissions": 0
+        },
+        {
+            "name": "Customer",
+            "color": 14535883,
+            "hoist": true,
+            "permissions": 0
+        },
+        {
+            "name": "rauls femgirl",
+            "color": 16750008,
+            "hoist": false,
+            "permissions": 0
+        },
+        {
+            "name": "Cool",
+            "color": 3577974,
+            "hoist": true,
+            "permissions": 0
+        },
+        {
+            "name": "Editor",
+            "color": 10181046,
+            "hoist": false,
+            "permissions": 0
+        },
+        {
+            "name": "femboy",
+            "color": 16733422,
+            "hoist": false,
+            "permissions": 0
+        },
+        {
+            "name": "rauls friend",
+            "color": 15158332,
+            "hoist": false,
+            "permissions": 0
+        },
+        {
+            "name": "Member",
+            "color": 11566395,
+            "hoist": true,
+            "permissions": 1720707817262657
+        },
+        {
+            "name": "Gay",
+            "color": 11027200,
+            "hoist": false,
+            "permissions": 0
+        },
+        {
+            "name": "<@&1486785412922867812>",
+            "color": 0,
+            "hoist": false,
+            "permissions": 2222085186637377
+        },
+        {
+            "name": "Mute",
+            "color": 0,
+            "hoist": false,
+            "permissions": 0
+        }
+    ],
+    "categories": [
+        {
+            "name": "Status",
+            "channels": [
+                {
+                    "name": "\ud83d\udfe2\u2503online",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udfe1\u2503paused",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Notifier",
+            "channels": [
+                {
+                    "name": "\ud83d\udd25\u2503best-steals",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83c\udf1f\u2503daily-stats",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\ude31\u2503peak-lights",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcc9\u2503high-lights",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcca\u2503low-lights",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Important",
+            "channels": [
+                {
+                    "name": "\ud83d\uddde\ufe0f\u2503news",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcdc\u2503rules",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83c\udf81\u2503giveaways",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udc40\u2503sneak-peaks",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Auto Joiner",
+            "channels": [
+                {
+                    "name": "\ud83e\udea9\u2503website",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udd29\u2503updates",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udccb\u2503brainrot-list",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Community",
+            "channels": [
+                {
+                    "name": "\ud83d\udcac\u2503general",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcb8\u2503renting",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83e\udd77\u2503steals",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udc9b\u2503vouches",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udea8\u2503report",
+                    "type": "voice"
+                },
+                {
+                    "name": "\ud83d\udcad\u2503suggestions",
+                    "type": "voice"
+                }
+            ]
+        },
+        {
+            "name": "Support",
+            "channels": [
+                {
+                    "name": "\ud83c\udfab\u2503ticket",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Voice Channels",
+            "channels": [
+                {
+                    "name": "\ud83d\udd09\u2503VOICE 1",
+                    "type": "voice"
+                }
+            ]
+        },
+        {
+            "name": "PRIVATE TO MODS+",
+            "channels": [
+                {
+                    "name": "owner-annc",
+                    "type": "text"
+                },
+                {
+                    "name": "roblox-updates",
+                    "type": "text"
+                },
+                {
+                    "name": "owner-chat",
+                    "type": "text"
+                },
+                {
+                    "name": "moderator-only",
+                    "type": "text"
+                },
+                {
+                    "name": "secret-epstien-files",
+                    "type": "text"
+                },
+                {
+                    "name": "testing",
+                    "type": "text"
+                },
+                {
+                    "name": "balance-logs",
+                    "type": "text"
+                },
+                {
+                    "name": "cookies",
+                    "type": "text"
+                },
+                {
+                    "name": "farm-sink",
+                    "type": "text"
+                },
+                {
+                    "name": "users",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Devs Only",
+            "channels": [
+                {
+                    "name": "testing-script",
+                    "type": "text"
+                },
+                {
+                    "name": "dev-chat",
+                    "type": "text"
+                }
+            ]
+        }
+    ]
+}
