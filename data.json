@@ -1,187 +1,61 @@
 {
-    "name": "Vexis Finder",
-    "id": "1486785022160539865",
-    "roles": [
-        {
-            "name": "@",
-            "color": 526344,
-            "hoist": false,
-            "permissions": 1721826619162615
-        },
-        {
-            "name": ".",
-            "color": 196618,
-            "hoist": false,
-            "permissions": 8864262743130111
-        },
-        {
-            "name": "Owner",
-            "color": 655360,
-            "hoist": true,
-            "permissions": 1721826618638335
-        },
-        {
-            "name": "Bot",
-            "color": 2123412,
-            "hoist": true,
-            "permissions": 8
-        },
-        {
-            "name": "Co Owner",
-            "color": 11127295,
-            "hoist": true,
-            "permissions": 1721826618638327
-        },
-        {
-            "name": "Administrator",
-            "color": 11825407,
-            "hoist": true,
-            "permissions": 1721807559716807
-        },
-        {
-            "name": "Moderator",
-            "color": 5132217,
-            "hoist": true,
-            "permissions": 4531603019975873
-        },
-        {
-            "name": "Helper",
-            "color": 11752348,
-            "hoist": false,
-            "permissions": 1099511627776
-        },
-        {
-            "name": "Developer",
-            "color": 10382335,
-            "hoist": true,
-            "permissions": 0
-        },
-        {
-            "name": "Investor",
-            "color": 6240676,
-            "hoist": true,
-            "permissions": 0
-        },
-        {
-            "name": "Pro Slot",
-            "color": 6431194,
-            "hoist": true,
-            "permissions": 67108864
-        },
-        {
-            "name": "Bid",
-            "color": 13410905,
-            "hoist": false,
-            "permissions": 0
-        },
-        {
-            "name": "Farmer Slot",
-            "color": 13086894,
-            "hoist": true,
-            "permissions": 0
-        },
-        {
-            "name": "Blacklisted",
-            "color": 1638914,
-            "hoist": false,
-            "permissions": 0
-        },
-        {
-            "name": "Customer",
-            "color": 14535883,
-            "hoist": true,
-            "permissions": 0
-        },
-        {
-            "name": "rauls femgirl",
-            "color": 16750008,
-            "hoist": false,
-            "permissions": 0
-        },
-        {
-            "name": "Cool",
-            "color": 3577974,
-            "hoist": true,
-            "permissions": 0
-        },
-        {
-            "name": "Editor",
-            "color": 10181046,
-            "hoist": false,
-            "permissions": 0
-        },
-        {
-            "name": "femboy",
-            "color": 16733422,
-            "hoist": false,
-            "permissions": 0
-        },
-        {
-            "name": "rauls friend",
-            "color": 15158332,
-            "hoist": false,
-            "permissions": 0
-        },
-        {
-            "name": "Member",
-            "color": 11566395,
-            "hoist": true,
-            "permissions": 1720707817262657
-        },
-        {
-            "name": "Gay",
-            "color": 11027200,
-            "hoist": false,
-            "permissions": 0
-        },
-        {
-            "name": "<@&1486785412922867812>",
-            "color": 0,
-            "hoist": false,
-            "permissions": 2222085186637377
-        },
-        {
-            "name": "Mute",
-            "color": 0,
-            "hoist": false,
-            "permissions": 0
-        }
-    ],
+    "name": "Headless Notifier",
     "categories": [
         {
-            "name": "Status",
+            "name": "Entry & Verification",
             "channels": [
                 {
-                    "name": "\ud83d\udfe2\u2503online",
+                    "name": "\ud83d\udeec\u30fblanding",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udfe1\u2503paused",
+                    "name": "\ud83d\udeeb\u30fbdeparture",
+                    "type": "text"
+                },
+                {
+                    "name": "\u2714\ufe0f\u30fbverify",
                     "type": "text"
                 }
             ]
         },
         {
-            "name": "Notifier",
+            "name": "Headless Stats",
             "channels": [
                 {
-                    "name": "\ud83d\udd25\u2503best-steals",
+                    "name": "\ud83d\udd34 .gg/hnotifier",
+                    "type": "voice"
+                },
+                {
+                    "name": "Website Site Status: \ud83d\udd34",
+                    "type": "voice"
+                },
+                {
+                    "name": "Headless Bot Status: \ud83d\udd34",
+                    "type": "voice"
+                }
+            ]
+        },
+        {
+            "name": "Headless Logs",
+            "channels": [
+                {
+                    "name": "\ud83c\udf83\u2503megalights",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83c\udf1f\u2503daily-stats",
+                    "name": "\ud83c\udf83\u2503peaklights",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\ude31\u2503peak-lights",
+                    "name": "\ud83c\udf83\u2503highlights",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udcc9\u2503high-lights",
+                    "name": "\ud83c\udf83\u2503midlights",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udcca\u2503low-lights",
+                    "name": "\ud83c\udf83\u2503lowlights",
                     "type": "text"
                 }
             ]
@@ -190,36 +64,31 @@
             "name": "Important",
             "channels": [
                 {
-                    "name": "\ud83d\uddde\ufe0f\u2503news",
+                    "name": "\ud83d\udcd6\u30fbrules",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udcdc\u2503rules",
+                    "name": "\ud83d\udce2\u2503announcements",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83c\udf81\u2503giveaways",
+                    "name": "\ud83c\udf10\u2503website",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udc40\u2503sneak-peaks",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "name": "Auto Joiner",
-            "channels": [
-                {
-                    "name": "\ud83e\udea9\u2503website",
+                    "name": "\ud83d\udee0\ufe0f\u2503updates",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udd29\u2503updates",
+                    "name": "\u2714\ufe0f\u2503vouches",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udccb\u2503brainrot-list",
+                    "name": "\u2694\ufe0f\u2503steals",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83c\udfab\u2503support",
                     "type": "text"
                 }
             ]
@@ -232,99 +101,158 @@
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udcb8\u2503renting",
+                    "name": "\ud83e\udd16\u2503bot-commands",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83e\udd77\u2503steals",
+                    "name": "\ud83d\udcb5\u2503economy",
                     "type": "text"
                 },
                 {
-                    "name": "\ud83d\udc9b\u2503vouches",
-                    "type": "text"
-                },
-                {
-                    "name": "\ud83d\udea8\u2503report",
-                    "type": "voice"
-                },
-                {
-                    "name": "\ud83d\udcad\u2503suggestions",
-                    "type": "voice"
-                }
-            ]
-        },
-        {
-            "name": "Support",
-            "channels": [
-                {
-                    "name": "\ud83c\udfab\u2503ticket",
+                    "name": "\ud83e\udd73\u2503guess-the-number",
                     "type": "text"
                 }
             ]
         },
         {
-            "name": "Voice Channels",
+            "name": "Voice Chats",
             "channels": [
                 {
-                    "name": "\ud83d\udd09\u2503VOICE 1",
+                    "name": "\ud83c\udf99\ufe0f\u2503General 1",
+                    "type": "voice"
+                },
+                {
+                    "name": "\ud83c\udf99\ufe0f\u2503 General 2",
+                    "type": "voice"
+                },
+                {
+                    "name": "\ud83c\udf99\ufe0f\u2503General 3",
                     "type": "voice"
                 }
             ]
         },
         {
-            "name": "PRIVATE TO MODS+",
+            "name": "Buyers Channel",
             "channels": [
                 {
-                    "name": "owner-annc",
+                    "name": "\ud83d\udce3\u30fbbuyer-announcements",
                     "type": "text"
                 },
                 {
-                    "name": "roblox-updates",
-                    "type": "text"
+                    "name": "\u26a0\ufe0f\u30fbgrief-reports",
+                    "type": "voice"
                 },
                 {
-                    "name": "owner-chat",
-                    "type": "text"
-                },
-                {
-                    "name": "moderator-only",
-                    "type": "text"
-                },
-                {
-                    "name": "secret-epstien-files",
-                    "type": "text"
-                },
-                {
-                    "name": "testing",
-                    "type": "text"
-                },
-                {
-                    "name": "balance-logs",
-                    "type": "text"
-                },
-                {
-                    "name": "cookies",
-                    "type": "text"
-                },
-                {
-                    "name": "farm-sink",
-                    "type": "text"
-                },
-                {
-                    "name": "users",
+                    "name": "\ud83d\udcac\u30fbbuyer-general",
                     "type": "text"
                 }
             ]
         },
         {
-            "name": "Devs Only",
+            "name": "Moderator Section",
             "channels": [
                 {
-                    "name": "testing-script",
+                    "name": "\ud83d\udce2\u30fbmoderator-annoucements",
                     "type": "text"
                 },
                 {
-                    "name": "dev-chat",
+                    "name": "\ud83d\udcc9\u30fbpromotion-and-demotion",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udde8\ufe0f\u30fbmod-chat",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83e\udd16\u30fbmod-commands",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Administrator Section",
+            "channels": [
+                {
+                    "name": "\ud83d\udce2\u30fbadministrator-annoucements",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcac\u30fbadministrator-chat",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83e\udd16\u30fbbot-commands",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udea8\u30fbblacklist-logs",
+                    "type": "voice"
+                },
+                {
+                    "name": "\ud83d\udcc3\u30fbcircle-logs",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Developer Section",
+            "channels": [
+                {
+                    "name": "\ud83d\udcac\u30fbdeveloper-chat",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83e\udd16\u30fbbot-commands",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcb5\u30fbpay-requests",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcf8\u30fbshow-your-work",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Owner Section",
+            "channels": [
+                {
+                    "name": "\ud83e\udd87 Jaxons Bat Den",
+                    "type": "voice"
+                },
+                {
+                    "name": "\ud83d\udcac\u30fbowner-chat",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83e\udd16\u30fbbot-commands",
+                    "type": "text"
+                },
+                {
+                    "name": "\u2757\u30fbticket-logs",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcdd\u30fbeconomy-logs",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udea8\u30fbsecurity-logs",
+                    "type": "text"
+                },
+                {
+                    "name": "\ud83d\udcf8\u30fbtesting-channel",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "Support Tickets",
+            "channels": [
+                {
+                    "name": "jaxon-needed-pre-order",
                     "type": "text"
                 }
             ]
